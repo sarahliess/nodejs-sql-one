@@ -24,7 +24,7 @@ const port = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
   res.send(
-    "<h1>NodeJS & SQL</h1><p>Check out the routes: <ul><li>users</li></ul></p>"
+    "<h1>NodeJS & SQL</h1><p>Check out the routes: <ul><li>users</li><li>users/:id</li></ul></p>"
   );
 });
 
